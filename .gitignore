@@ -1,0 +1,12 @@
+# Ignore all shared files except the directory placeholder
+shared_files/*
+!shared_files/.gitkeep
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS system files
+.DS_Store
+Thumbs.db
